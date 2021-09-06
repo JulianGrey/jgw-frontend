@@ -1,0 +1,29 @@
+.app {
+  &__header {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      margin: auto 0 0 72px;
+      border-bottom: 1px solid;
+    }
+  }
+
+  &__main {
+    display: inline-flex;
+
+    &__side {
+      writing-mode: vertical-lr;
+      text-orientation: upright;
+
+      .logo {
+        margin: auto;
+        border-right: 1px solid;
+      }
+    }
+  }
+
+  .logo {
+    font-size: 48px;
+  }
+}
